@@ -14,7 +14,7 @@ let g:SuperTabMappingBackward='<>'
 "surround
 autocmd FileType eruby let g:surround_{char2nr('=')} = "<%= \r %>"
 "snipMate
-:imap <leader><tab> <Plug>snipMateBack<Plug>
+":imap <leader><tab> <Plug>snipMateBack<Plug>
 :imap <C-L> <Plug>snipMateShow
 
 "vim-go
