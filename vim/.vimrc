@@ -1,3 +1,4 @@
+" load pathogen bundles
 execute pathogen#infect()
 filetype plugin on
 filetype indent on
@@ -13,6 +14,7 @@ let g:SuperTabMappingBackward='<>'
 
 "surround
 autocmd FileType eruby let g:surround_{char2nr('=')} = "<%= \r %>"
+
 "snipMate
 ":imap <leader><tab> <Plug>snipMateBack<Plug>
 :imap <C-L> <Plug>snipMateShow
