@@ -29,12 +29,6 @@ syntax enable
 set t_Co=256
 set background=dark
 colorscheme gruvbox
-"colorscheme solarized
-"colorscheme slate
-"colorscheme monokai
-"colorscheme GitHub
-"colorscheme wombat
-"colorscheme fokus
 "hi Comment guifg=Seagreen
 
 "turn highlighting off after search
